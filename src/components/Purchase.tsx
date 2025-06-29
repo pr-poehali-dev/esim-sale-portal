@@ -6,7 +6,7 @@ const Purchase = () => {
   const plans = [
     {
       name: "Базовый",
-      price: "299",
+      price: "598",
       period: "7 дней",
       data: "5 ГБ",
       features: [
@@ -20,7 +20,7 @@ const Purchase = () => {
     },
     {
       name: "Популярный",
-      price: "799",
+      price: "1598",
       period: "30 дней",
       data: "20 ГБ",
       features: [
@@ -35,7 +35,7 @@ const Purchase = () => {
     },
     {
       name: "Максимум",
-      price: "1499",
+      price: "2998",
       period: "30 дней",
       data: "50 ГБ",
       features: [
