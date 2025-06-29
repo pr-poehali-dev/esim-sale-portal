@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="min-h-screen bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-purple-900/20" />
 
-      <div className="container mx-auto px-4 py-20 relative z-10">
+      <div className="container mx-auto px-4 pt-32 pb-20 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             eSIM для России
