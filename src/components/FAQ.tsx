@@ -74,7 +74,8 @@ const FAQ = () => {
                   <div className="flex items-center">
                     <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                       <Icon
-                        name="HelpCircle"
+                        name="Help"
+                        fallback="Circle"
                         size={16}
                         className="text-white"
                       />
@@ -97,6 +98,7 @@ const FAQ = () => {
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
               <Icon
                 name="MessageCircle"
+                fallback="Mail"
                 size={48}
                 className="mx-auto mb-4 opacity-90"
               />
@@ -116,7 +118,12 @@ const FAQ = () => {
                   href="https://t.me/esim_russia_support"
                   className="bg-white/20 hover:bg-white/30 px-6 py-3 rounded-full font-semibold transition-colors flex items-center justify-center"
                 >
-                  <Icon name="MessageCircle" size={18} className="mr-2" />
+                  <Icon
+                    name="MessageCircle"
+                    fallback="Send"
+                    size={18}
+                    className="mr-2"
+                  />
                   Telegram поддержка
                 </a>
               </div>
